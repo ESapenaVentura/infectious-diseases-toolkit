@@ -1876,3 +1876,7 @@
   id: veil-ai
   name: Veil.AI
   url: https://veil.ai/
+- description: Set of helper tools for the assembly of the different elements in the RELECOV platform (Spanish Network for genomic surveillance of SARS-Cov-2) as data download, processing, validation and upload to public databases, as well as analysis runs and database storage.
+  id: relecov-tools
+  name: Relecov tools
+  url:  https://github.com/BU-ISCIII/relecov-tools
