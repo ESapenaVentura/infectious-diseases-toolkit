@@ -1961,6 +1961,10 @@
   name: EpiPulse - The European Surveillance Portal for Infectious Diseases
   url: (https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases
 
+- description: Set of helper tools for the assembly of the different elements in the RELECOV platform (Spanish Network for genomic surveillance of SARS-Cov-2) as data download, processing, validation and upload to public databases, as well as analysis runs and database storage.
+  id: relecov-tools
+  name: Relecov tools
+  url:  https://github.com/BU-ISCIII/relecov-tools
 - description: The Systematized Nomenclature of Medicine Clinical Terms is a reference terminology that can be used to cross-map standardized healthcare languages across healthcare disciplines.
   id: snomed-ct
   name: SNOMED-CT
