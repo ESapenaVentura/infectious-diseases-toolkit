@@ -32,6 +32,7 @@ Usage of unique identifiers such as accessions and ontologies to annotate is hig
 Taking into consideration how to annotate the metadata and the results makes for a long-term, sustainable data environment, enabling cross-project collaborations without intensive resource allocation.
 
 ### Existing approaches
+
 Ontologies should be considered while defining the metadata and how the samples will be annotated. There are several available resources, with different use cases and sometimes overlaps amongst them. Examples of existing approaches include RELECOV, who have leveraged several ontologies, both for standardizing the field names and annotate the data. Examples of ontologies used by RELECOV standards are:
 
 - {% tool "snomed-ct" %}: Clinical-Terms ontology, used by many projects to define the clinical data.
@@ -42,16 +43,19 @@ Ontologies should be considered while defining the metadata and how the samples 
 Each project should determine which ontologies to use depending on their own sample collection/data analysis needs, taking into account existing guidelines (e.g. The Spanish government's `Semantic Interoperability` guidelines)
 
 Generation and/or collection of unique IDs should be defined by their use:
+
 - Internal,short term use: For internal, short term usage within a project, a unique ID can be defined by their own means; usually, this involves well-known libraries such as python's `uuid` or unique hashes based on sample metadata (e.g. in the case of {% tool "relecov-tools" %}, combining 4 fields and hashing the value)
 - Long term: Archiving in public or Managed access repositories is, at all times, desirable. Archiving is a costly process to set up, but usually is the desirable outcome for long term, as public archives often offer data persistence, not relying on project funding to maintain themselves. Examples of genomic archives include the INSDC (Open, non-managed access data) and EGA (Managed access data, which include federated nodes in several countries). 
 
 ## Sample handling: key for data quality 
 ### Considerations
+
 Standardised and re-usable processes must be considered to generate high-quality (meta)data. These procedures include sample collection and transport, if needed, to the facilities where the analyses are performed. In addition to the procedures, it is key to pay attention to the existing conditions during the different steps of sample collection and processing (such as room temperature or processing time). Hence, it is important not only to collect relevant information, but also to store it as standardised as possible, to improve interoperability and reusability of the resulting data.
 
 If data are not de-novo generated but aggregated from a source, it is important to consider the trustworthiness of the source before re-use.
 
 ### Existing approaches
+
 The information (including metadata) collected are determined by the needs of a given project. However, metadata concerning sample acquisition, processing and handling should be as rich as possible to increase reusability of the data. The two lists below contain some general variables that may be relevant when collecting, transporting and storing samples, depending on the type of sample:
 
 * For collection step, the following information should be controlled and documented:
@@ -72,6 +76,7 @@ The information needed heavily depends on the research/the investigations to be 
 
 ## Preanalytical and analytical methods
 ### Considerations
+
 During the preanalytical and analytical processing of the samples, there are several variables that can potentially affect the data resulting from them (some of them listed below). Thus, following guidelines on the standardisation of methods  and keeping track of the chosen procedures are key to get meaningful data from the samples.
 
 * For both, the pre-analytical and analytical methods, it depends on the type of samples and on the pathogen to be investigated but some of the most relevant variables to consider and keep track are:
