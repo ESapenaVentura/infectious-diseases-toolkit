@@ -1,7 +1,7 @@
 ---
 title: Pathogen characterisation
 description: General considerations for pathogen characterization quality control.
-contributors: [Clementina Elvezia Cocuzza, Fotis Psomopoulos, Eva Garcia Alvarez, Rudolf Wittner, Stian Soiland-Reyes, Hedi Peterson, Paul De Geest]
+contributors: [Clementina Elvezia Cocuzza, Fotis Psomopoulos, Eva Garcia Alvarez, Rudolf Wittner, Stian Soiland-Reyes, Hedi Peterson, Paul De Geest, Enrique Sapena Ventura]
 page_id: pc_quality_control
 redirect_from: /pathogen-characterisation/quality-control
 rdmkit:
@@ -34,10 +34,10 @@ Taking into consideration how to annotate the metadata and the results makes for
 ### Existing approaches
 Ontologies should be considered while defining the metadata and how the samples will be annotated. There are several available resources, with different use cases and sometimes overlaps amongst them. Examples of existing approaches include RELECOV, who have leveraged several ontologies, both for standardizing the field names and annotate the data. Examples of ontologies used by RELECOV standards are:
 
-- SNOMED-CT: Clinical-Terms ontology, used by many projects to define the data 
-- GENEPIO: GEnomic EPIdemiology Ontology, used to describe the fields necessary to collect epidemiology data and annotate it.
-- NCIT: NCI Thesaurus, a resource dedicated mostly to terminology on the biomedical fields.
-- EFO: Experimental Factor Ontology, a well-stablished EBI resource dedicated to cross-reference different ontologies to 
+- {% tool "snomed-ct" %}: Clinical-Terms ontology, used by many projects to define the clinical data.
+- {% tool "genepio" %}: GEnomic EPIdemiology Ontology, used to describe the fields necessary to collect epidemiology data and annotate it.
+- {% tool "ncit" %}: NCI Thesaurus, a resource dedicated mostly to terminology on the biomedical fields.
+- {% tool "efo" %}: Experimental Factor Ontology, a well-stablished EBI resource dedicated to cross-reference different ontologies to 
 
 Each project should determine which ontologies to use depending on their own sample collection/data analysis needs, taking into account existing guidelines (e.g. The Spanish government's `Semantic Interoperability` guidelines)
 
